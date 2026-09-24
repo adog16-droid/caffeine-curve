@@ -1,0 +1,24 @@
+{
+  "name": "caffeine-curve",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A React SVG chart of caffeine in the body over a day, with the pharmacokinetic model that draws it.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19",
+    "react-dom": "^19",
+    "typescript": "^5",
+    "vitest": "^3"
+  }
+}
